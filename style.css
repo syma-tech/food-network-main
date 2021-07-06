@@ -97,3 +97,44 @@ header #search button.searching{
     border-radius: 50%;
 }
 /* home section ends here */
+#about{
+    /* background-color: #d63636; */
+    margin: 0;
+    display: flex;
+    /* background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    background-color: rgb(165, 12, 12);
+}
+#about .half_width{
+    width: 50%;
+    padding:  0 10%;
+}
+#about .half_width h1{
+    font-weight: 800;
+    font-size: 2em;
+    margin: 2%;
+}
+#about .half_width h1 span{
+    color: chartreuse;
+}
+#about .half_width p{
+    font-weight: 400;
+    font-size: 1em;
+    padding: 0% 2%;
+}
+#about .half_width a{
+    font-weight: 600;
+    font-size: 1em;
+    padding: 0% 2%;
+    background-image: linear-gradient(#ff6600, #000);
+    color: chartreuse;
+    margin-left: 2%;
+    padding: 2%;
+    border-radius: 30px;
+}
+#about .half_width img{
+    margin-left: 20%;
+    border-radius: 50%;
+}
