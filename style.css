@@ -1,0 +1,63 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+header{
+    display: flex;
+    padding: 25px 0;
+    /* background-color: hotpink; */
+}
+header #logo{
+    width: 18%;
+    text-align: center;
+}
+header #logo .food_logo{
+    padding: 5% 15%;
+    font-weight: 800;
+    font-size: 1.1em;
+    color: chartreuse;
+}
+header #navigation{
+    width: 57%;
+}
+header #navigation ul{
+    margin: 0 0 0 30%;
+    display: flex;
+}
+header #navigation ul li{
+    list-style-type: none;
+}
+header #navigation ul li a{
+    font-weight: 600;
+    font-size: 1em;
+    color: chartreuse;
+    padding: .969em 2em;
+}
+header #search{
+    width: 25%;
+}
+header #search .searching{
+    background: transparent;
+    padding: 2%;
+    margin-top: 1%;
+    border: 3px solid chartreuse;
+    border-radius: 20px;
+    color: chartreuse;
+    font-weight: 600;
+    font-size: 1em;
+}
+header #search button.searching{
+    background: chartreuse;
+    color: #272727;
+}
+/* header ends here */
+header{}
+header{}
+header{}
+header{}
+header{}
+header{}
