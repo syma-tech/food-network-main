@@ -118,10 +118,7 @@ header #search button.searching{
     font-weight: 800;
     font-size: 2em;
     margin: 2%;
-    color: chartreuse;
-}
-#about .half_width h1 span{
-    color: chartreuse;
+    color: lime;
 }
 #about .half_width p{
     font-weight: 400;
@@ -146,21 +143,38 @@ header #search button.searching{
 /* about section ends here */
 #recipes{
     background-color: blueviolet;
-    height: 500px;
     background-image: url(images/recipe_cover.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #recipes .recipe_intro{
-    background-color: rgb(209, 65, 65);
-    height: 500px;
+    padding: 3% 30%;
+    text-align: center;
 }
-/* #recipes .recipe_intro{}
-#recipes .recipe_intro{}
+#recipes .recipe_intro h2{
+    font-weight: 800;
+    font-size: 2em;
+    margin: 2%;
+    color: lime;
+    text-shadow: 2px 2px black;
+}
+#recipes .recipe_intro p{
+    font-weight: 600;
+    font-size: 1em;
+    margin: 2%;
+    color: lime;
+}
 #recipes .recipe_items{
     background-color: burlywood;
-    height: 500px;
+    display: flex;
 }
+#recipes .recipe_items .recipe_dishs{
+    background-color: maroon;
+    border-left: 1px solid rgb(233, 255, 106);
+    height: 300px;
+    width: 33.334%;
+}
+#recipes .recipe_items .recipe_dishs{}
+#recipes .recipe_items .recipe_dishs{}
 #recipes{}
-#recipes{} */
